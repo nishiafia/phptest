@@ -1,5 +1,5 @@
 <?php
-$conn=new PDO('mysql:host=localhost;port=3306;dbname=phptest','root', '');
+$conn=new PDO('pgsql:host=localhost;port=5432;dbname=phptest','phptest', '');
     // $servername = "localhost";
 	// $username = "root";
 	// $password = "";
